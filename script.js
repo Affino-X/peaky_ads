@@ -5,6 +5,11 @@ function parallax() {
         parallaxElement3 = document.getElementById("gIconRightFirst"),
         parallaxElement4 = document.getElementById("gIconYellowFirst"),
         parallaxElement5 = document.getElementById("gIconBlueFirst"),
+
+        parallaxElement6 = document.getElementById("gIconBlueSecond"),
+        parallaxElement7 = document.getElementById("gAdsIconSecond"),
+
+
         doc = document.documentElement;
 
     window.requestAnimationFrame(function () {
@@ -56,12 +61,34 @@ function parallax() {
 
         currentElement5.style.transform = "translate(620%," + scrolled5 * 0.15 + "px)";
 
+
+        let currentElement6 = parallaxElement6,
+        windowTop6 = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0),
+        elementTop6 = currentElement6.offsetTop,
+        elementHeight6 = currentElement6.getBoundingClientRect().height,
+        viewPortHeight6 = window.innerHeight * 0.5 - elementHeight6 * 0.5,
+        scrolled6 = windowTop6 - elementTop6 + viewPortHeight6;
+
+        currentElement6.style.transform = "translate(-582px," + scrolled6 * 0.25 + "px) rotate(-57deg)";
+    
+        let currentElement7 = parallaxElement7,
+        windowTop7 = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0),
+        elementTop7 = currentElement7.offsetTop,
+        elementHeight7 = currentElement7.getBoundingClientRect().height,
+        viewPortHeight7 = window.innerHeight * 0.5 - elementHeight7 * 0.5,
+        scrolled7 = windowTop7 - elementTop7 + viewPortHeight7;
+
+        currentElement7.style.transform = "translate(590px," + scrolled7 * 0.25 + "px) rotate(90deg)";
+
       } else {
 
         parallaxElement1.removeAttribute("style");
         parallaxElement2.removeAttribute("style");
         parallaxElement3.removeAttribute("style");
         parallaxElement4.removeAttribute("style");
+        parallaxElement5.removeAttribute("style");
+        parallaxElement6.removeAttribute("style");
+        parallaxElement7.removeAttribute("style");
 
       }
 
