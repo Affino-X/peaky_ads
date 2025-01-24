@@ -33,7 +33,7 @@ header {
   height: 58.97px;
 }
 .nav__link {
-  font-family: Gilroy-Bold;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 16.8px;
@@ -92,7 +92,7 @@ header {
   border-radius: 24px;
   border: 1px solid rgb(255, 255, 255);
   color: rgb(255, 255, 255);
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 15.07px;
   font-weight: 700;
 }
@@ -185,7 +185,7 @@ header {
           align-items: center;
   height: 126px;
   color: rgb(255, 255, 255);
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 61.08px;
   font-weight: 700;
   width: 1070px;
@@ -195,7 +195,7 @@ header {
 }
 .promo__text {
   color: rgb(255, 255, 255);
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 24.43px;
   font-weight: 700;
   line-height: 29.32px;
@@ -213,7 +213,7 @@ header {
   height: 61px;
   color: rgb(255, 255, 255);
   background: rgb(255, 0, 107);
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 24.43px;
   font-weight: 700;
   line-height: 24.43px;
@@ -319,7 +319,7 @@ header {
   position: relative;
   width: 333px;
   height: 156px;
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 50px;
   font-weight: 700;
   line-height: 60px;
@@ -339,7 +339,7 @@ header {
   width: 377px;
   height: 216px;
   text-align: center;
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -373,7 +373,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 15.07px;
   height: 45px;
   font-weight: 700;
@@ -434,7 +434,7 @@ header {
 }
 .google-ads-management__title {
   color: rgb(255, 255, 255);
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 61.08px;
   font-weight: 700;
   line-height: 73.3px;
@@ -471,7 +471,7 @@ header {
 }
 .google-ads-management__card h3 {
   color: rgb(255, 255, 255);
-  font-family: Gilroy-bold;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 700;
   margin: 0;
@@ -485,7 +485,7 @@ header {
 }
 .google-ads-management__card span {
   color: rgb(255, 255, 255);
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -608,7 +608,7 @@ header {
           transform: translate(535%, 133%);
 }
 .google-ads-started__title {
-  font-family: Gilroy-bold;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 50px;
   font-weight: 700;
   line-height: 60px;
@@ -624,7 +624,7 @@ header {
   background: rgb(255, 0, 107);
   border-radius: 122px;
   color: rgb(255, 255, 255);
-  font-family: Gilroy-bold;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 24.43px;
   font-weight: 700;
   border: none;
@@ -707,12 +707,12 @@ header {
 }
 .google-ads-started__item-text h4 {
   margin: 0;
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
 }
 .google-ads-started__item-text span {
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -788,14 +788,14 @@ header {
   margin-left: 15px;
 }
 .afx-feedback__text h3 {
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
   color: rgb(255, 255, 255);
   margin: 0;
 }
 .afx-feedback__text span {
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 16.8px;
@@ -821,7 +821,7 @@ header {
   height: 728px;
 }
 .ppc-success__title {
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 61.08px;
   font-weight: 700;
   line-height: 73.3px;
@@ -866,7 +866,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   color: rgb(255, 255, 255);
-  font-family: Gilroy-bold;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
   width: 130px;
@@ -876,7 +876,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   color: rgb(255, 255, 255);
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 19.2px;
@@ -1011,7 +1011,7 @@ header {
 }
 .ppc-success__action span {
   color: rgb(255, 255, 255);
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 15.07px;
   font-weight: 700;
 }
@@ -1020,7 +1020,7 @@ header {
   height: 61px;
   border-radius: 122px;
   color: rgb(255, 255, 255);
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 24.43px;
   font-weight: 700;
   border: none;
@@ -1028,13 +1028,421 @@ header {
 }
 
 .promo__button,
+.advertising-game__button,
 .google-ads-started__button,
 .ppc-success__action button {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .promo__button:hover,
+.advertising-game__button:hover,
 .google-ads-started__button:hover,
 .ppc-success__action button:hover {
   background: #db00ff;
+}
+.promo__button:active,
+.advertising-game__button:active,
+.google-ads-started__button:active,
+.ppc-success__action button:active {
+  background: transparent;
+}
+
+.faq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.faq__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 124px;
+}
+.faq__title {
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 61.08px;
+  font-weight: 700;
+  line-height: 73.3px;
+  width: 1104px;
+  height: 127px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 68px;
+}
+.faq__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+}
+.faq__question, .faq__answers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+.faq__question img, .faq__answers img {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 50px;
+  height: 50px;
+}
+.faq__question span, .faq__answers span {
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.faq__question {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+.faq__answers span {
+  padding: 23px 24px;
+}
+.faq__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+  width: 980px;
+}
+.faq__item span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background: rgba(217, 217, 217, 0.01);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  font-weight: 700;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+  border-radius: 60px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.faq__item--first .faq__question {
+  width: 353px;
+  height: 120px;
+}
+.faq__item--first .faq__answers {
+  width: 614px;
+  height: 192px;
+}
+.faq__item--second .faq__question {
+  width: 439px;
+  height: 120px;
+}
+.faq__item--second .faq__question span {
+  text-align: right;
+}
+.faq__item--second .faq__answers {
+  width: 655px;
+  height: 192px;
+}
+.faq__item--third .faq__question {
+  width: 488px;
+  height: 120px;
+}
+.faq__item--third .faq__answers {
+  width: 574px;
+  height: 192px;
+}
+.faq__item--fourth .faq__question {
+  width: 488px;
+  height: 120px;
+}
+.faq__item--fourth .faq__answers {
+  width: 574px;
+  height: 192px;
+}
+.faq__dots {
+  position: absolute;
+}
+
+.advertising-game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.advertising-game__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 538px;
+  width: 1600px;
+  color: rgb(255, 255, 255);
+  background: rgba(21, 21, 21, 0.4);
+  margin-top: 169px;
+}
+.advertising-game__dots {
+  position: absolute;
+  z-index: -2;
+}
+.advertising-game__title {
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 61.08px;
+  font-weight: 700;
+  line-height: 73.3px;
+  width: 1104px;
+  height: 138px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 37px;
+}
+.advertising-game__content {
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 24.43px;
+  font-weight: 700;
+  line-height: 29.32px;
+  width: 679px;
+  height: 58px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 42px;
+}
+.advertising-game__button {
+  background: rgb(255, 0, 107);
+  width: 323px;
+  height: 61px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 24.43px;
+  font-weight: 700;
+  border-radius: 122.16px;
+  cursor: pointer;
+}
+.advertising-game__g-icon {
+  position: absolute;
+  z-index: -2;
+}
+.advertising-game__g-ads-icon {
+  position: absolute;
+  z-index: -2;
+}
+.advertising-game__feedback, .advertising-game .afx-feedback {
+  position: absolute;
+}
+.advertising-game__feedback__item--top-left, .advertising-game .afx-feedback__item--top-left {
+  -webkit-transform: translate(-115%, 250%);
+      -ms-transform: translate(-115%, 250%);
+          transform: translate(-115%, 250%);
+}
+.advertising-game__feedback__item--middle-left, .advertising-game .afx-feedback__item--middle-left {
+  -webkit-transform: translate(-65%, 560%);
+      -ms-transform: translate(-65%, 560%);
+          transform: translate(-65%, 560%);
+}
+.advertising-game__feedback__item--middle-left img, .advertising-game .afx-feedback__item--middle-left img {
+  background: rgb(255, 255, 255);
+}
+.advertising-game__feedback__item--bottom-left, .advertising-game .afx-feedback__item--bottom-left {
+  -webkit-transform: translate(-147%, 852%);
+      -ms-transform: translate(-147%, 852%);
+          transform: translate(-147%, 852%);
+}
+.advertising-game__feedback__item--top-right, .advertising-game .afx-feedback__item--top-right {
+  -webkit-transform: translate(375%, 260%);
+      -ms-transform: translate(375%, 260%);
+          transform: translate(375%, 260%);
+}
+.advertising-game__feedback__item--top-right img, .advertising-game .afx-feedback__item--top-right img {
+  background: rgb(255, 255, 255);
+}
+.advertising-game__feedback__item--middle-right, .advertising-game .afx-feedback__item--middle-right {
+  -webkit-transform: translate(320%, 584%);
+      -ms-transform: translate(320%, 584%);
+          transform: translate(320%, 584%);
+}
+.advertising-game__feedback__item--middle-right img, .advertising-game .afx-feedback__item--middle-right img {
+  background: rgb(255, 255, 255);
+}
+.advertising-game__feedback__item--bottom-right, .advertising-game .afx-feedback__item--bottom-right {
+  -webkit-transform: translate(344%, 855%);
+      -ms-transform: translate(344%, 855%);
+          transform: translate(344%, 855%);
+}
+
+.footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer-nav__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1104.41px;
+  height: 46.72px;
+  margin-top: 54px;
+  margin-bottom: 54px;
+}
+.footer-nav__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 37px;
+  margin-right: 161px;
+  width: 206px;
+}
+.footer-nav__logo span {
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  width: 130px;
+}
+.footer-nav__social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  gap: 12px;
+  margin: 0;
+  margin-right: 70px;
+  padding: 0;
+}
+.footer-nav__icon {
+  width: 20px;
+  height: 20px;
+  -webkit-mask-size: 20px;
+          mask-size: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.footer-nav__icon--telegram {
+  -webkit-mask: url("images/social/TelegramLogo.svg") no-repeat center;
+          mask: url("images/social/TelegramLogo.svg") no-repeat center;
+}
+a:hover .footer-nav__icon--telegram {
+  background-color: #fa00ff;
+}
+.footer-nav__icon--instagram {
+  -webkit-mask: url("images/social/InstagramLogo.svg") no-repeat center;
+          mask: url("images/social/InstagramLogo.svg") no-repeat center;
+}
+a:hover .footer-nav__icon--instagram {
+  background-color: #00a3ff;
+}
+.footer-nav__icon--linkedin {
+  -webkit-mask: url("images/social/LinkedinLogo.svg") no-repeat center;
+          mask: url("images/social/LinkedinLogo.svg") no-repeat center;
+}
+a:hover .footer-nav__icon--linkedin {
+  background-color: #00a3ff;
+}
+.footer-nav__icon--youtube {
+  -webkit-mask: url("images/social/YouTubeLogo.svg") no-repeat center;
+          mask: url("images/social/YouTubeLogo.svg") no-repeat center;
+}
+a:hover .footer-nav__icon--youtube {
+  background-color: #ff0c00;
+}
+.footer-nav__social-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+}
+.footer-nav__social-item a img {
+  color: red;
+  width: 20px;
+  height: 20px;
+}
+.footer-nav__contact {
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  margin-right: 162px;
+  width: 117px;
+}
+.footer-nav__contact a {
+  color: rgb(255, 255, 255);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.footer-nav__contact a:hover {
+  color: #fa00ff;
+}
+.footer-nav__privacy {
+  width: 301px;
+  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+.footer-nav__privacy span {
+  width: 100%;
 }
