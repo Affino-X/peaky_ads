@@ -1389,8 +1389,8 @@ a:hover .footer-nav__icon--linkedin {
   background-color: #00a3ff;
 }
 .footer-nav__icon--youtube {
-  -webkit-mask: url("images/social/YouTubeLogo.svg") no-repeat center;
-          mask: url("images/social/YouTubeLogo.svg") no-repeat center;
+  -webkit-mask: url("images/social/YoutubeLogo.svg") no-repeat center;
+          mask: url("images/social/YoutubeLogo.svg") no-repeat center;
 }
 a:hover .footer-nav__icon--youtube {
   background-color: #ff0c00;
