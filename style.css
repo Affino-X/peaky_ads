@@ -19,6 +19,10 @@ header {
   padding-top: 64px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1210,7 +1214,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   height: 538px;
-  width: 1600px;
+  width: 100%;
   color: rgb(255, 255, 255);
   background: rgba(21, 21, 21, 0.4);
   margin-top: 169px;

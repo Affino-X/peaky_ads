@@ -18,6 +18,10 @@ header {
     padding-top: 64px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -1030,7 +1034,7 @@ header {
         justify-content: center;
         align-items: center;
         height: 538px;
-        width: 1600px;
+        width: 100%;
         color: $white;
         background: rgba(21, 21, 21, 0.4);
         margin-top: 169px;
