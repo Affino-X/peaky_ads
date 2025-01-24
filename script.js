@@ -21,7 +21,7 @@ function parallax() {
         currentElement1.style.transform = "translate(0," + scrolled1 * -0.35 + "px)";
 
         let currentElement2 = parallaxElement2,
-            windowTop2 = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 2620),
+            windowTop2 = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 2400),
             elementTop2 = currentElement2.offsetTop,
             elementHeight2 = currentElement2.getBoundingClientRect().height,
             viewPortHeight2 = window.innerHeight * 0.5 - elementHeight2 * 0.5,
@@ -30,7 +30,7 @@ function parallax() {
         currentElement2.style.transform = "translate(-200%," + scrolled2 * 0.15 + "px) rotate(77.04deg)";
 
         let currentElement3 = parallaxElement3,
-            windowTop3 = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 150),
+            windowTop3 = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || -10),
             elementTop3 = currentElement3.offsetTop,
             elementHeight3 = currentElement3.getBoundingClientRect().height,
             viewPortHeight3 = window.innerHeight * 0.5 - elementHeight3 * 0.5,
@@ -39,7 +39,7 @@ function parallax() {
         currentElement3.style.transform = "translate(320%," + scrolled3 * 0.15 + "px)";
 
         let currentElement4 = parallaxElement4,
-            windowTop4 = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 2320),
+            windowTop4 = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 2120),
             elementTop4 = currentElement4.offsetTop,
             elementHeight4 = currentElement4.getBoundingClientRect().height,
             viewPortHeight4 = window.innerHeight * 0.5 - elementHeight4 * 0.5,
@@ -48,7 +48,7 @@ function parallax() {
         currentElement4.style.transform = "translate(-540%," + scrolled4 * 0.15 + "px)";
         
         let currentElement5 = parallaxElement5,
-            windowTop5 = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 970),
+            windowTop5 = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 770),
             elementTop5 = currentElement5.offsetTop,
             elementHeight5 = currentElement5.getBoundingClientRect().height,
             viewPortHeight5 = window.innerHeight * 0.5 - elementHeight5 * 0.5,
