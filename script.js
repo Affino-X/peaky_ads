@@ -9,6 +9,9 @@ function parallax() {
         parallaxElement6 = document.getElementById("gIconBlueSecond"),
         parallaxElement7 = document.getElementById("gAdsIconSecond"),
 
+        parallaxElement8 = document.getElementById("servicesFirst"),
+        parallaxElement9 = document.getElementById("servicesSecond"),
+
 
         doc = document.documentElement;
 
@@ -63,22 +66,41 @@ function parallax() {
 
 
         let currentElement6 = parallaxElement6,
-        windowTop6 = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0),
+        windowTop6 = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || -500),
         elementTop6 = currentElement6.offsetTop,
         elementHeight6 = currentElement6.getBoundingClientRect().height,
         viewPortHeight6 = window.innerHeight * 0.5 - elementHeight6 * 0.5,
         scrolled6 = windowTop6 - elementTop6 + viewPortHeight6;
 
-        currentElement6.style.transform = "translate(-582px," + scrolled6 * 0.25 + "px) rotate(-57deg)";
+        currentElement6.style.transform = "translate(-582px," + scrolled6 * 0.15 + "px) rotate(-57deg)";
     
         let currentElement7 = parallaxElement7,
-        windowTop7 = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0),
+        windowTop7 = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || -350),
         elementTop7 = currentElement7.offsetTop,
         elementHeight7 = currentElement7.getBoundingClientRect().height,
         viewPortHeight7 = window.innerHeight * 0.5 - elementHeight7 * 0.5,
         scrolled7 = windowTop7 - elementTop7 + viewPortHeight7;
 
-        currentElement7.style.transform = "translate(590px," + scrolled7 * 0.25 + "px) rotate(90deg)";
+        currentElement7.style.transform = "translate(590px," + scrolled7 * -0.15 + "px) rotate(90deg)" ;
+
+
+        let currentElement8 = parallaxElement8,
+        windowTop8 = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0),
+        elementTop8 = currentElement8.offsetTop,
+        elementHeight8 = currentElement8.getBoundingClientRect().height,
+        viewPortHeight8 = window.innerHeight * 0.5 - elementHeight8 * 0.5,
+        scrolled8 = windowTop8- elementTop8 + viewPortHeight8
+
+        currentElement8.style.transform = "translate(0," + scrolled8 * 0.1 + "px)";
+    
+        let currentElement9 = parallaxElement9,
+        windowTop9 = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0),
+        elementTop9 = currentElement9.offsetTop,
+        elementHeight9 = currentElement9.getBoundingClientRect().height,
+        viewPortHeight9 = window.innerHeight * 0.5 - elementHeight9 * 0.5,
+        scrolled9 = windowTop9 - elementTop9 + viewPortHeight9;
+
+        currentElement9.style.transform = "translate(0," + scrolled9 * -0.1 + "px)" ;
 
       } else {
 
