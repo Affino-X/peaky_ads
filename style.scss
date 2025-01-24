@@ -114,22 +114,27 @@ header {
     &__dots {
         position: absolute;
         transform: translate(-3.9%, -13%);
+        z-index: -5;
     }
     .promo &__g-icon {
         position: absolute;
         &--yellow {
             transform: translate(-540%, -320%);
+            z-index: -1;
             
         }
         &--blue {
             transform: translate(620%, -130%);
+            z-index: -1;
         }
 
         &--left {
             transform: translate(-200%, -230%) rotate(77.04deg);
+            z-index: -1;
         }
         &--right {
             transform: translate(320%, -15%) rotate(-0deg);
+            z-index: -1;
         }
     }
     &__title {
