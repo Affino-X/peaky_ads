@@ -5,15 +5,15 @@ body {
 }
 
 @font-face {
-  font-family: "Gilroy";
-  src: url("./Gilroy-Medium.ttf") format("opentype");
+  font-family: "Gilroy Regular";
+  src: url(../fonts/Gilroy-Regular.woff2) format("woff2"), url(../fonts/Gilroy-Regular.woff) format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Gilroy-bold";
-  src: url("./Gilroy-Bold.ttf") format("opentype");
-  font-weight: normal;
+  font-family: "Gilroy Bold";
+  src: url(../fonts/Gilroy-Bold.woff2) format("woff2"), url(../fonts/Gilroy-Bold.woff) format("woff");
+  font-weight: 700;
   font-style: normal;
 }
 header {
