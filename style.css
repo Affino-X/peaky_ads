@@ -6,13 +6,19 @@ body {
 
 @font-face {
   font-family: "Gilroy Regular";
-  src: url("./fonts/Gilroy-Regular.ttf") format("opentype");
+  src: url("./fonts/Gilroy-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
+  font-family: "Gilroy Medium";
+  src: url("./fonts/Gilroy-Medium.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
   font-family: "Gilroy Bold";
-  src: url("./fonts/Gilroy-Bold.ttf") format("opentype");
+  src: url("./fonts/Gilroy-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
@@ -49,7 +55,7 @@ body {
   height: 58.97px;
 }
 .nav__link {
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 16.8px;
@@ -108,7 +114,7 @@ body {
   border-radius: 24px;
   border: 1px solid rgb(255, 255, 255);
   color: rgb(255, 255, 255);
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold;
   font-size: 15.07px;
   font-weight: 700;
 }
@@ -201,7 +207,7 @@ body {
           align-items: center;
   height: 126px;
   color: rgb(255, 255, 255);
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 61.08px;
   font-weight: 700;
   width: 1070px;
@@ -211,9 +217,8 @@ body {
 }
 .promo__text {
   color: rgb(255, 255, 255);
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 24.43px;
-  font-weight: 700;
   line-height: 29.32px;
   height: 87px;
   text-align: center;
@@ -229,7 +234,7 @@ body {
   height: 61px;
   color: rgb(255, 255, 255);
   background: rgb(255, 0, 107);
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 24.43px;
   font-weight: 700;
   line-height: 24.43px;
@@ -335,7 +340,7 @@ body {
   position: relative;
   width: 333px;
   height: 156px;
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 50px;
   font-weight: 700;
   line-height: 60px;
@@ -355,7 +360,7 @@ body {
   width: 377px;
   height: 216px;
   text-align: center;
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Regular, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -389,7 +394,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 15.07px;
   height: 45px;
   font-weight: 700;
@@ -450,7 +455,7 @@ body {
 }
 .google-ads-management__title {
   color: rgb(255, 255, 255);
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 61.08px;
   font-weight: 700;
   line-height: 73.3px;
@@ -487,7 +492,7 @@ body {
 }
 .google-ads-management__card h3 {
   color: rgb(255, 255, 255);
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 700;
   margin: 0;
@@ -501,7 +506,7 @@ body {
 }
 .google-ads-management__card span {
   color: rgb(255, 255, 255);
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Regular, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -624,7 +629,7 @@ body {
           transform: translate(535%, 133%);
 }
 .google-ads-started__title {
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 50px;
   font-weight: 700;
   line-height: 60px;
@@ -640,7 +645,7 @@ body {
   background: rgb(255, 0, 107);
   border-radius: 122px;
   color: rgb(255, 255, 255);
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 24.43px;
   font-weight: 700;
   border: none;
@@ -723,12 +728,12 @@ body {
 }
 .google-ads-started__item-text h4 {
   margin: 0;
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
 }
 .google-ads-started__item-text span {
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Regular, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -804,14 +809,14 @@ body {
   margin-left: 15px;
 }
 .afx-feedback__text h3 {
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
   color: rgb(255, 255, 255);
   margin: 0;
 }
 .afx-feedback__text span {
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 16.8px;
@@ -837,7 +842,7 @@ body {
   height: 728px;
 }
 .ppc-success__title {
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 61.08px;
   font-weight: 700;
   line-height: 73.3px;
@@ -882,7 +887,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   color: rgb(255, 255, 255);
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
   width: 130px;
@@ -892,7 +897,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   color: rgb(255, 255, 255);
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Regular, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 19.2px;
@@ -1027,7 +1032,7 @@ body {
 }
 .ppc-success__action span {
   color: rgb(255, 255, 255);
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 15.07px;
   font-weight: 700;
 }
@@ -1036,7 +1041,7 @@ body {
   height: 61px;
   border-radius: 122px;
   color: rgb(255, 255, 255);
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 24.43px;
   font-weight: 700;
   border: none;
@@ -1085,7 +1090,7 @@ body {
   margin-top: 124px;
 }
 .faq__title {
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 61.08px;
   font-weight: 700;
   line-height: 73.3px;
@@ -1151,7 +1156,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 20px;
   background: rgba(217, 217, 217, 0.01);
   -webkit-backdrop-filter: blur(10px);
@@ -1236,7 +1241,7 @@ body {
   z-index: -2;
 }
 .advertising-game__title {
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 61.08px;
   font-weight: 700;
   line-height: 73.3px;
@@ -1247,7 +1252,7 @@ body {
   margin-bottom: 37px;
 }
 .advertising-game__content {
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 24.43px;
   font-weight: 700;
   line-height: 29.32px;
@@ -1263,8 +1268,9 @@ body {
   height: 61px;
   border: none;
   color: rgb(255, 255, 255);
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 24.43px;
+  text-transform: uppercase;
   font-weight: 700;
   border-radius: 122.16px;
   cursor: pointer;
@@ -1355,7 +1361,7 @@ body {
   width: 206px;
 }
 .footer-nav__logo span {
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 16.8px;
@@ -1433,7 +1439,7 @@ a:hover .footer-nav__icon--youtube {
   height: 20px;
 }
 .footer-nav__contact {
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 16.8px;
@@ -1452,7 +1458,7 @@ a:hover .footer-nav__icon--youtube {
 }
 .footer-nav__privacy {
   width: 301px;
-  font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 16.8px;
@@ -1617,7 +1623,7 @@ a:hover .footer-nav__icon--youtube {
     width: 83.6px;
     height: 29.26px;
     color: rgb(255, 255, 255);
-    font-family: Gilroy;
+    font-family: Gilroy Bold;
   }
   .afx-feedback-mobile__text h3 {
     margin: 0;
@@ -1654,7 +1660,6 @@ a:hover .footer-nav__icon--youtube {
     height: 45.2px;
   }
   .promo__title {
-    font-family: Gilroy, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
@@ -1671,7 +1676,6 @@ a:hover .footer-nav__icon--youtube {
     margin-top: 25px;
   }
   .promo__text {
-    font-family: Gilroy;
     font-size: 25px;
     font-weight: 700;
     line-height: 30px;
@@ -1727,7 +1731,6 @@ a:hover .footer-nav__icon--youtube {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    font-family: Gilroy;
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
@@ -1808,7 +1811,6 @@ a:hover .footer-nav__icon--youtube {
   }
   .google-ads-management__title {
     width: 345px;
-    font-family: Gilroy;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
@@ -1841,7 +1843,6 @@ a:hover .footer-nav__icon--youtube {
   }
   .google-ads-management__card h3 {
     width: 308px;
-    font-family: Gilroy;
     font-size: 30px;
     font-weight: 700;
     line-height: 30px;
@@ -1857,7 +1858,6 @@ a:hover .footer-nav__icon--youtube {
     width: 348px;
     height: 49px;
     line-height: 18px;
-    font-family: Gilroy;
     font-weight: 400;
     text-align: center;
     text-underline-position: from-font;
@@ -1925,7 +1925,6 @@ a:hover .footer-nav__icon--youtube {
             box-sizing: border-box;
   }
   .google-ads-started__title {
-    font-family: Gilroy;
     width: 261px;
     height: auto;
     font-size: 40px;
@@ -2143,7 +2142,6 @@ a:hover .footer-nav__icon--youtube {
     margin-top: 60px;
   }
   .faq__title {
-    font-family: Gilroy;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
@@ -2214,7 +2212,6 @@ a:hover .footer-nav__icon--youtube {
     width: 100%;
   }
   .faq__item--second .faq__answers span {
-    font-family: Gilroy;
     font-size: 20px;
     font-weight: 700;
     text-align: left;
@@ -2292,7 +2289,6 @@ a:hover .footer-nav__icon--youtube {
   .advertising-game__button {
     width: 253px;
     height: 62px;
-    font-family: Gilroy;
     font-size: 25px;
     font-weight: 700;
     line-height: 25px;

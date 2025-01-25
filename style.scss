@@ -6,14 +6,21 @@ body {
 
 @font-face {
     font-family: 'Gilroy Regular';
-    src: url('./fonts/Gilroy-Regular.ttf') format('opentype');
+    src: url('./fonts/Gilroy-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
+    font-family: 'Gilroy Medium';
+    src: url('./fonts/Gilroy-Medium.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Gilroy Bold';
-    src: url('./fonts/Gilroy-Bold.ttf') format('opentype');
+    src: url('./fonts/Gilroy-Bold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
 }
@@ -41,7 +48,7 @@ body {
     width: 1026px;
     height: 58.97px;
     &__link {
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 14px;
         font-weight: 700;
         line-height: 16.8px;
@@ -80,7 +87,7 @@ body {
         border-radius: 24px;
         border: 1px solid $white;
         color: $white;
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold;
         font-size: 15.07px;
         font-weight: 700;
 
@@ -159,7 +166,7 @@ body {
  
         height: 126px;
         color: $white;
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 61.08px;
         font-weight: 700;
         width: 1070px;
@@ -169,9 +176,9 @@ body {
     }
     &__text {
         color: $white;
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 24.43px;
-        font-weight: 700;
+        // font-weight: 700;
         line-height: 29.32px;
         height: 87px;
         text-align: center;
@@ -186,7 +193,7 @@ body {
         height: 61px;
         color: $white;
         background: rgba(255, 0, 107, 1);
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 24.43px;
         font-weight: 700;
         line-height: 24.43px;
@@ -265,7 +272,7 @@ body {
         position: relative;
         width: 333px;
         height: 156px;
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 50px;
         font-weight: 700;
         line-height: 60px;
@@ -288,7 +295,7 @@ body {
         width: 377px;
         height: 216px;
         text-align: center;
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Regular, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-weight: 400;
         line-height: 24px;
@@ -317,7 +324,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 15.07px;
         height: 45px;
         font-weight: 700;
@@ -375,7 +382,7 @@ body {
     }
     &__title {
         color: $white;
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 61.08px;
         font-weight: 700;
         line-height: 73.3px;
@@ -404,7 +411,7 @@ body {
         background: rgba(21, 21, 21, 0.5);
         h3 {
             color: $white;
-            font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+            font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
             font-size: 40px;
             font-weight: 700;
             margin: 0;
@@ -418,7 +425,7 @@ body {
         }
         span {
             color: $white;
-            font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+            font-family: Gilroy Regular, sans-serif, Arial, Helvetica, sans-serif;
             font-size: 20px;
             font-weight: 400;
             line-height: 24px;
@@ -471,19 +478,6 @@ body {
             
         }
 
-        // &::before {
-        //     content: '';
-        //     position: absolute;
-        //     top: -50px; /* Позиция круга внутри блока */
-        //     left: 50px;
-        //     width: 150px; /* Размер круга */
-        //     height: 150px;
-        //     background: #ff007a; /* Цвет круга */
-        //     border-radius: 50%; /* Превращение в круг */
-        //     filter: blur(50px); /* Размытие круга */
-        //     opacity: 0.6; /* Прозрачность для плавного эффекта */
-        //     z-index: -1; /* Уход за контент блока */
-        // }
     }
 
     
@@ -534,7 +528,7 @@ body {
     }
 
     &__title {
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 50px;
         font-weight: 700;
         line-height: 60px;
@@ -550,7 +544,7 @@ body {
         background: rgba(255, 0, 107, 1);
         border-radius: 122px;
         color: $white;
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 24.43px;
         font-weight: 700;
         border: none;
@@ -617,12 +611,12 @@ body {
             // align-items: center;
             h4 {
                 margin: 0;
-                font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+                font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
                 font-size: 20px;
                 font-weight: 700;
             }
             span {
-                font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+                font-family: Gilroy Regular, sans-serif, Arial, Helvetica, sans-serif;
                 font-size: 20px;
                 font-weight: 400;
                 line-height: 24px;
@@ -688,7 +682,7 @@ body {
     &__text {
         margin-left: 15px;
         h3 {
-            font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+            font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
             font-size: 20px;
             font-weight: 700;
             color: $white;
@@ -696,7 +690,7 @@ body {
             
         }
         span {
-            font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+            font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
             font-size: 14px;
             font-weight: 700;
             line-height: 16.8px;
@@ -720,7 +714,7 @@ body {
         height: 728px;
     }
     &__title {
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 61.08px;
         font-weight: 700;
         line-height: 73.3px;
@@ -756,7 +750,7 @@ body {
       h3 {
         display: flex;
         color: $white;
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-weight: 700;
         width: 130px;
@@ -764,7 +758,7 @@ body {
       span {
         display: flex;
         color: $white;
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Regular, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 19.2px;
@@ -875,7 +869,7 @@ body {
         gap: 20px;
         span {
             color: $white;
-            font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+            font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
             font-size: 15.07px;
             font-weight: 700;
         }
@@ -884,7 +878,7 @@ body {
             height: 61px;
             border-radius: 122px;
             color: rgba(255, 255, 255, 1);
-            font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+            font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
             font-size: 24.43px;
             font-weight: 700;
             border: none;
@@ -917,7 +911,7 @@ body {
         margin-top: 124px;
     }
     &__title {
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 61.08px;
         font-weight: 700;
         line-height: 73.3px;
@@ -967,7 +961,7 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+            font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
             font-size: 20px;
             background: rgba(217, 217, 217, 0.01);
             backdrop-filter: blur(10px);
@@ -1059,7 +1053,7 @@ body {
 
     
     &__title {
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 61.08px;
         font-weight: 700;
         line-height: 73.3px;
@@ -1070,7 +1064,7 @@ body {
         margin-bottom: 37px;
     }
     &__content {
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 24.43px;
         font-weight: 700;
         line-height: 29.32px;
@@ -1086,8 +1080,9 @@ body {
         height: 61px;
         border: none;
         color: $white;
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 24.43px;
+        text-transform: uppercase;
         font-weight: 700;
         border-radius: 122.16px;
         cursor: pointer;
@@ -1164,7 +1159,7 @@ body {
         margin-right: 161px;
         width: 206px;
         span {
-            font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+            font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
             font-size: 14px;
             font-weight: 700;
             line-height: 16.8px;
@@ -1235,7 +1230,7 @@ body {
        }
     }
     &__contact {
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 14px;
         font-weight: 700;
         line-height: 16.8px;
@@ -1253,7 +1248,7 @@ body {
     }
     &__privacy {
         width: 301px;
-        font-family: Gilroy, sans-serif, Arial, Helvetica, sans-serif;
+        font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 14px;
         font-weight: 700;
         line-height: 16.8px;
@@ -1391,7 +1386,7 @@ body {
             width: 83.6px;
             height: 29.26px;
             color: $white;
-            font-family: Gilroy;
+            font-family: Gilroy Bold;
 
 
             h3 {
@@ -1475,7 +1470,7 @@ body {
 		// .promo__title
 
 		&__title {
-            font-family: Gilroy, Helvetica, sans-serif;
+            // font-family: Gilroy, Helvetica, sans-serif;
             font-size: 40px;
             font-weight: 700;
             line-height: 48px;
@@ -1494,7 +1489,7 @@ body {
 		// .promo__text
 
 		&__text {
-            font-family: Gilroy;
+            // font-family: Gilroy;
             font-size: 25px;
             font-weight: 700;
             line-height: 30px;
@@ -1619,7 +1614,7 @@ body {
 		&__title {
             display: flex;
             flex-direction: column;
-            font-family: Gilroy;
+            // font-family: Gilroy;
             font-size: 30px;
             font-weight: 700;
             line-height: 36px;
@@ -1761,7 +1756,7 @@ body {
 
 		&__title {
             width: 345px;
-            font-family: Gilroy;
+            // font-family: Gilroy;
             font-size: 40px;
             font-weight: 700;
             line-height: 48px;
@@ -1793,7 +1788,7 @@ body {
             }
             h3 {
                 width: 308px;
-                font-family: Gilroy;
+                // font-family: Gilroy;
                 font-size: 30px;
                 font-weight: 700;
                 line-height: 30px;
@@ -1809,7 +1804,7 @@ body {
                 width: 348px;
                 height: 49px;
                 line-height: 18px;
-                font-family: Gilroy;
+                // font-family: Gilroy;
                 font-weight: 400;
                 text-align: center;
                 text-underline-position: from-font;
@@ -1953,7 +1948,7 @@ body {
 		// .google-ads-started__title
 
 		&__title {
-            font-family: Gilroy;
+            // font-family: Gilroy;
             width: 261px;
             height: auto;
             font-size: 40px;
@@ -2317,7 +2312,7 @@ body {
 		// .faq__title
 
 		&__title {
-            font-family: Gilroy;
+            // font-family: Gilroy;
             font-size: 40px;
             font-weight: 700;
             line-height: 48px;
@@ -2415,7 +2410,7 @@ body {
                 height: 100%;
                 width: 100%;
                 span {
-                    font-family: Gilroy;
+                    // font-family: Gilroy;
                     font-size: 20px;
                     font-weight: 700;
                     text-align: left;
@@ -2536,7 +2531,7 @@ body {
 		&__button {
             width: 253px;
             height: 62px;
-            font-family: Gilroy;
+            // font-family: Gilroy;
             font-size: 25px;
             font-weight: 700;
             line-height: 25px;
