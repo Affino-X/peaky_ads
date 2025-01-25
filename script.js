@@ -56,3 +56,31 @@ function parallax() {
 ["load", "resize", "scroll"].forEach(event => {
     window.addEventListener(event, parallax);
 });
+
+
+// Effect for FAQ
+const faqElements = document.querySelectorAll('.faq__question, .faq__answers');
+let lastScrollY = window.scrollY;
+
+const observerCallback = (entries) => {
+  entries.forEach(entry => {
+    const scrollingDown = window.scrollY > lastScrollY;
+
+    if (entry.isIntersecting && scrollingDown) {
+      entry.target.classList.add('active');
+    } else if (!entry.isIntersecting) {
+      entry.target.classList.remove('active');
+    }
+  });
+
+  lastScrollY = window.scrollY;
+};
+
+const observerOptions = {
+  root: null,
+  threshold: 0.1,
+};
+
+const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+faqElements.forEach(element => observer.observe(element));

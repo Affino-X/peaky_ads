@@ -1153,8 +1153,8 @@ body {
         align-items: center;
         width: 1104.41px;
         height: 46.72px;
-        margin-top: 54px;
-        margin-bottom: 54px;
+        margin-top: 79px;
+        margin-bottom: 53px;
         
     }
     &__logo {
@@ -2478,6 +2478,9 @@ body {
             }
 		}
 }
+    .promo-background-details {
+        margin-bottom: 0;
+    }
 
 }
 
@@ -2651,3 +2654,43 @@ body {
 }
 
 }
+
+// { animation-name: slide-in-fwd-center }
+.faq__question.active, .faq__answers.active {
+	-webkit-animation: swing-in-top-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+	        animation: swing-in-top-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+}
+
+ @-webkit-keyframes swing-in-top-fwd {
+    0% {
+      -webkit-transform: rotateX(-100deg);
+              transform: rotateX(-100deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+  }
+  @keyframes swing-in-top-fwd {
+    0% {
+      -webkit-transform: rotateX(-100deg);
+              transform: rotateX(-100deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+  }
+  
