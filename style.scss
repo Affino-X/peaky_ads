@@ -1,5 +1,7 @@
 body {
     background: rgba(0, 0, 0, 1);
+    margin: 0;
+    padding: 0;
 }
 
 @font-face {
@@ -1250,6 +1252,31 @@ body {
         span {
             width: 100%;
            
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    header {
+        padding: 0;
+        padding-top: 15px;
+    }
+    .nav {
+        box-sizing: border-box;
+        padding: 0 32.5px;
+        width: 345px;
+        height: 41px;
+        &__link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 57px;
+            height: 37px;
+        }
+        &__logo {
+            width: 55.46px;
+            height: 40.98px;
         }
     }
 }
