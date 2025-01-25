@@ -6,17 +6,17 @@ body {
 
 @font-face {
     font-family: 'Gilroy Regular';
-    src: url(../fonts/Gilroy-Regular.woff2) format('woff2'), url(../fonts/Gilroy-Regular.woff) format('woff');
+    src: url('./fonts/Gilroy-Regular.ttf') format('opentype');
     font-weight: normal;
-    font-style: normal
-  }
-  
-  @font-face {
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Gilroy Bold';
-    src: url(../fonts/Gilroy-Bold.woff2) format('woff2'), url(../fonts/Gilroy-Bold.woff) format('woff');
+    src: url('./fonts/Gilroy-Bold.ttf') format('opentype');
     font-weight: 700;
-    font-style: normal
-  }
+    font-style: normal;
+}
 $white: rgba(255, 255, 255, 1);
 
 header {
