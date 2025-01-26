@@ -24,6 +24,7 @@ body {
     font-weight: 700;
     font-style: normal;
 }
+
 $white: rgba(255, 255, 255, 1);
 
 header {
@@ -947,10 +948,7 @@ body {
        
     }
     &__answers {
-        span {padding: 23px 24px;}
-        img {
-            
-        }
+        span {padding: 24px 43px 24px 43px;}
     }
     &__item {
         display: flex;

@@ -32,7 +32,7 @@ function parallax() {
         { id: "faqDotsBottom", transformX: "-5%", transformYMultiplier: -0.25, initialTopOffset: 5950},
 
         { id: "gameDots", transformX: "0%", transformYMultiplier: -0.25, initialTopOffset: 800},
-        { id: "gameFeedback", transformX: "-1150%", transformYMultiplier: -0.25, initialTopOffset: 200},
+        { id: "gameFeedback", transformX: "-1150%", transformYMultiplier: -0.25, initialTopOffset: -200},
 
         { id: "gRed", transformX: "-700px", transformYMultiplier: 0.05, initialTopOffset: -7000},
         { id: "gGreen", transformX: "650px", transformYMultiplier: 0.05, initialTopOffset: -9200},

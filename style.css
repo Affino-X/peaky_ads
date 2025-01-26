@@ -1133,7 +1133,7 @@ body {
       align-self: flex-end;
 }
 .faq__answers span {
-  padding: 23px 24px;
+  padding: 24px 43px 24px 43px;
 }
 .faq__item {
   display: -webkit-box;
