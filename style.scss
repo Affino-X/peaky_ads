@@ -2649,6 +2649,16 @@ body {
 }
 
 }
+@media (max-width: 480px) {
+    body, html {
+        overflow-x: hidden;
+      }
+    .promo__g-icon,
+    .google-ads-services__g-icon,
+    .google-ads-started__g-icon {
+        display: none;
+    }
+}
 
 // { animation-name: slide-in-fwd-center }
 .faq__question.active, .faq__answers.active {

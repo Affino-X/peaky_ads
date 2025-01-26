@@ -2363,6 +2363,16 @@ a:hover .footer-nav__icon--youtube {
     margin: 0;
   }
 }
+@media (max-width: 480px) {
+  body, html {
+    overflow-x: hidden;
+  }
+  .promo__g-icon,
+  .google-ads-services__g-icon,
+  .google-ads-started__g-icon {
+    display: none;
+  }
+}
 .faq__question.active, .faq__answers.active {
   -webkit-animation: swing-in-top-fwd 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
   animation: swing-in-top-fwd 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
