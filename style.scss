@@ -488,14 +488,20 @@ body {
 .blur-circle {
     z-index: -1;
     top: 400px;
-    width: 274px; 
-    height: 274px; 
-    background: $white; 
+    width: 274px;
+    height: 274px;
+    background: $white;
     border-radius: 50%;
-    filter: blur(83.39412689208984px); 
-    position: absolute; 
-    opacity: 1; 
+    position: absolute;
+    opacity: 1;
+
+    /* Применение фильтра для всех браузеров */
+    filter: blur(83.39412689208984px);
+
+    /* Префикс для Safari (для старых версий) */
+    -webkit-filter: blur(83.39412689208984px);
 }
+
 
 .google-ads-started {
     position: relative;
