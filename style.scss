@@ -397,6 +397,9 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 15px;
+        -webkit-gap: 15px;
+        -webkit-column-gap: 15px;
+        -webkit-row-gap: 15px;
     }
     &__card {
         position: relative;
