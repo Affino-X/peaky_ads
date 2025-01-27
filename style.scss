@@ -403,10 +403,11 @@ body {
         display: flex;
         flex-direction: column;
         // justify-content: center;
+        z-index: 2;
         align-items: center;
         width: 458px;
         height: 355px;
-        overflow: hidden;
+        // overflow: hidden;
         backdrop-filter: blur(18.67882537841797px);
         border-radius: 34.8px;
         background: rgba(21, 21, 21, 0.5);
@@ -486,7 +487,7 @@ body {
 }
 
 .blur-circle {
-    z-index: -1;
+    z-index: 1;
     top: 400px;
     width: 274px;
     height: 274px;
