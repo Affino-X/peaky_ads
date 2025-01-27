@@ -405,15 +405,22 @@ body {
         position: relative;
         display: flex;
         flex-direction: column;
-        // justify-content: center;
+        /* justify-content: center; */
         z-index: 2;
         align-items: center;
         width: 458px;
         height: 355px;
         overflow: hidden;
+        
+        /* Применение фильтра для всех браузеров */
         backdrop-filter: blur(18.67882537841797px);
+        
+        /* Префикс для Safari (старые версии) */
+        -webkit-backdrop-filter: blur(18.67882537841797px);
+        
         border-radius: 34.8px;
         background: rgba(21, 21, 21, 0.5);
+        
         h3 {
             color: $white;
             font-family: Gilroy Bold, sans-serif, Arial, Helvetica, sans-serif;

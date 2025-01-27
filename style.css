@@ -483,6 +483,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  /* justify-content: center; */
   z-index: 2;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -490,8 +491,10 @@ body {
   width: 458px;
   height: 355px;
   overflow: hidden;
+  /* Применение фильтра для всех браузеров */
+  backdrop-filter: blur(18.6788253784px);
+  /* Префикс для Safari (старые версии) */
   -webkit-backdrop-filter: blur(18.6788253784px);
-          backdrop-filter: blur(18.6788253784px);
   border-radius: 34.8px;
   background: rgba(21, 21, 21, 0.5);
 }
