@@ -486,6 +486,7 @@ body {
           align-items: center;
   width: 458px;
   height: 355px;
+  overflow: hidden;
   -webkit-backdrop-filter: blur(18.6788253784px);
           backdrop-filter: blur(18.6788253784px);
   border-radius: 34.8px;
