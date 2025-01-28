@@ -1905,10 +1905,18 @@ a:hover .footer-nav__icon--youtube {
     top: 290px;
   }
 }
+@supports (-webkit-overflow-scrolling: touch) or (-webkit-backdrop-filter: blur(0)) {
+  @media screen and (min-width: 1024px) {
+    .blur-circle {
+      top: 340px;
+    }
+  }
+}
 @supports (-webkit-touch-callout: none) {
-  /* Стили для Safari */
-  .blur-circle {
-    top: 255px;
+  @media (max-width: 480px) {
+    .blur-circle {
+      top: 262px;
+    }
   }
 }
 @media (max-width: 480px) {
