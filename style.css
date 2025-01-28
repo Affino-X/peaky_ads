@@ -1902,7 +1902,13 @@ a:hover .footer-nav__icon--youtube {
     width: 250px;
   }
   .blur-circle {
-    top: 250px;
+    top: 290px;
+  }
+}
+@supports (-webkit-touch-callout: none) {
+  /* Стили для Safari */
+  .blur-circle {
+    top: 255px;
   }
 }
 @media (max-width: 480px) {

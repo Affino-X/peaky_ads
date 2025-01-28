@@ -1897,10 +1897,19 @@ body {
 		}
 }
 .blur-circle {
-    top: 250px;
+    top: 290px; 
 }
 
 }
+
+@supports (-webkit-touch-callout: none) {
+    /* Стили для Safari */
+    .blur-circle {
+        top: 255px; 
+        // background-color: lightblue;
+    }
+}
+
 
 @media (max-width: 480px) {
     .google-ads-started {
