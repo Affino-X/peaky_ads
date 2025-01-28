@@ -497,20 +497,21 @@ body {
 }
 
 .blur-circle {
-    z-index: 1;
+   
     top: 400px;
     width: 274px;
     height: 274px;
     background: $white;
     border-radius: 50%;
     position: absolute;
-    opacity: 1;
+    // opacity: 1;
 
     /* Применение фильтра для всех браузеров */
     filter: blur(83.39412689208984px);
 
     /* Префикс для Safari (для старых версий) */
     -webkit-filter: blur(83.39412689208984px);
+    z-index: 1;
 }
 
 
@@ -1896,7 +1897,7 @@ body {
 		}
 }
 .blur-circle {
-    top: 290px;
+    top: 250px;
 }
 
 }
